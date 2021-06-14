@@ -2,30 +2,27 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE-edge">
 <meta name="viewport" content="width=device-width, intial-scale=1.0">
 <title>  Delivery Express</title>
 <!--stylesheet----------->
 <link rel="stylesheet" href="stylelog.css"/>
-<!--fav-icon-------------->
+<!--Logo to title-------------->
 <link rel="shortcut icon" href="logo.jfif">
-<!--poppins-font----------->
+<!---font----------->
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<!--using-font-awesome-------------->
+<!--using-font-awesome icons-------------->
 <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
-<!--bootstrap-->
+<!--bootstrap--------------------------->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 <body>
     <!--navigation-------------------->
     <nav id="navigation">
-        <!--logo------------>
-        
+     <!--logo------------>
 		<a href="#" class="logo">
             <img src="logo.jfif"/>
         </a>
-        <!--menu-btn------->
+        <!--menu-btn for nav2------->
         <input type="checkbox" class="menu-btn" id="menu-btn">
         <label for="menu-btn" class="menu-icon">
             <span class="nav-icon"></span>
@@ -35,7 +32,7 @@
             <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#">Services</a></li>
-            <li><a href="#rating">Rating</a></li>
+            <li><a href="#rating">Contact</a></li>
         </ul>
         <!--sign-up-btn----->
         <a href="#" class="sign-up-btn">
@@ -50,7 +47,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#">Services</a></li>
-                <li><a href="#rating">Rating</a></li>
+                <li><a href="#rating">Contact</a></li>
             </ul>
             <!--sign-up-btn-2--->
         
@@ -61,7 +58,8 @@
         </a>
         </nav>
     </nav>
-         <div class="newarr">
+	<!----------------Gallery----->
+   <div class="newarr">
         <br>
         <br>
         <br>
@@ -266,11 +264,13 @@
             return;
           }
           repeater();
-        }, 10000);
+        }, 5000);//5000 milliseconds
         }
         repeater();
       }
       repeat();
+</script>
+
     </script>
     <script>
         // When the user scrolls down 20px from the top of the document, slide down the navbar
@@ -285,4 +285,4 @@
         }
         </script>
 </body>
-</html>
+</html>     
